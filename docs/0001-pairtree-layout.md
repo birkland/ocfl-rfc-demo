@@ -4,7 +4,7 @@
 * Obsoleted by: n/a
 * Obsoletes: n/a
 
-* Note:  This is not a real RFC.  It's an example of its kind *
+*Note:  This is not a real RFC.  It's an example of its kind*
 
 ## Overview
 
@@ -57,6 +57,7 @@ An OCFL object with id `ark:12345/6` would have its path computed as follows:
 
 On a filesystem, the resulting OCFL object corresponding to that ID would look like:
 
+```plaintext
 [storage_root]
                 ├── 0=ocfl_1.0
                 ├── ocfl_layout.json
@@ -69,3 +70,4 @@ On a filesystem, the resulting OCFL object corresponding to that ID would look l
                 |                       └──45=6
                 |                           ├── 0=ocfl_object_1.0
                 |                           └── ...
+```
