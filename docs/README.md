@@ -16,8 +16,8 @@ This repository contains a couple samples, as well as an example pull request.
 
 ### Specification
 
-* [RFC 0001: Pairtree Layout](docs/0001-pairtree-layout.md).  Describes a layout URI and set of rules for creating pairtree directory layouts.
+* [RFC 0001: Pairtree Layout](0001-pairtree-layout.md).  Describes a layout URI and set of rules for creating pairtree directory layouts.
 
 ### Implementation pattern
 
-* [RFC 0002: Exclusive Deposit locking](docs/0002-exclusive-deposit-locking.md).  Describes a technique for exclusive object-level locking within the `/deposit` directory for uncoordinated clients using a local filesystem.
+* [RFC 0002: Exclusive Deposit locking](0002-exclusive-deposit-locking.md).  Describes a technique for exclusive object-level locking within the `/deposit` directory for uncoordinated clients using a local filesystem.
