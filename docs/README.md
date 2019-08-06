@@ -14,10 +14,6 @@ This repository contains a couple samples, as well as an example pull request.
 
 ## RFCs
 
-RFCs can be read on github pages such as:
-* https://birkland.github.io/ocfl-rfc-demo/0001-pairtree-layout
-
-
 ### Specification
 
 * [RFC 0001: Pairtree Layout](docs/0001-pairtree-layout.md).  Describes a layout URI and set of rules for creating pairtree directory layouts.
