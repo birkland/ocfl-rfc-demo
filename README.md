@@ -21,6 +21,7 @@ RFCs can be read on github pages such as:
 ### Specification
 
 * [RFC 0001: Pairtree Layout](docs/0001-pairtree-layout.md).  Describes a layout URI and set of rules for creating pairtree directory layouts.
+* [RFC 0003: Truncated N-tuple Layout](docs/0003-truncated-ntuple-layout.md).  Describes a URI and set of rules for creating truncated n-tuple directory layouts.
 
 ### Implementation pattern
 
