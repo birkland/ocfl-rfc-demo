@@ -19,8 +19,7 @@ Starting with an empty path relative to the ocfl object root:
 
 1. Optionally, encode the ID according to one of the allowable [encodings](#Encodings) allowed in this RFC
 2. Perform the following step `D` times:
-   * If there are at least N+1 characters remaining in the ID, remove the first N characters from the beginning of the encoded ID, and append this to the path as a path segment.
-   * If the number of characters remaining in the encoded ID is less than or equal to `N`, append the value `_` to the path, and go to step 3.
+   * If there are at least N+1 characters remaining in the ID, remove the first N characters from the beginning of the encoded ID, and append this to the path as a path segment. Otherwise, append the value `_` to the path, and go to step 3.
 3. Append the full encoded object ID to the path as its final path segment.  This shall be the OCFL object root for the object with the given ID.
 
 ### Encodings
