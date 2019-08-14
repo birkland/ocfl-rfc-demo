@@ -12,7 +12,7 @@ This RFC defines a truncated n-tuple layout URI `https://birkland.github.io/ocfl
 
 ## Algorithm details
 
-The truncated n-tuple layout creates a directory hiearachy based upon a number of fixed-length substrings generated from an ocfl object ID.  Required parameters are `N`
+The truncated n-tuple layout creates a directory hierarchy based upon a number of fixed-length substrings generated from an ocfl object ID.  Required parameters are `N`
 (the number of characters in a tuple), and `D` (depth; the number of tuples used for naming directories).  
 
 Starting with an empty path relative to the ocfl object root:
@@ -37,7 +37,7 @@ Allowed encodings are as follows:
 
 ## URI structure
 
-An `ocfl_layout.json` file MUST be present in the OCFL object root.  The `url` value MUST contain a URL that begins with `https://birkland.github.io/ocfl-rfc-demo/0003-truncated-ntuple-layout`, and MUST contain query parameters `n` and `depth` representing tuple length `N` and depth `D`, respectively.  A parameter `encoding` MAY be provided.
+An `ocfl_layout.json` file MUST be present in the OCFL storage root.  The `url` value MUST contain a URL that begins with `https://birkland.github.io/ocfl-rfc-demo/0003-truncated-ntuple-layout`, and MUST contain query parameters `n` and `depth` representing tuple length `N` and depth `D`, respectively.  A parameter `encoding` MAY be provided.
 If present, it MUST be one of the values listed in the [encodings](#Encodings) table.  If `encoding` is not present, then OCFL object IDs are used in the path generation without
 any encoding.
 
